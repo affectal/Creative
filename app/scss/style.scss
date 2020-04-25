@@ -474,6 +474,12 @@
                 left: 25px;
                 top: 13px;
             }
+            &:hover {
+                box-shadow: 0 0 10px #019edb;
+            }
+            &:hover::before {
+                transform: rotate(0deg);
+            }
             a {
                 color: #fff;
             }
@@ -536,3 +542,4 @@
 }
 
 // FOOTER end
+@import 'media';

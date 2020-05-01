@@ -4,7 +4,14 @@ $(function() {
         $('.drop-down__inner').slideToggle();
     });
 
-    new WOW().init();
+    wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: false,
+        live: true
+    })
+    wow.init();
 
 
 });
